@@ -1,0 +1,2 @@
+-keep public class com.fstream.plugin.sdk.** { public *; }
+-keep public interface com.fstream.plugin.sdk.** { *; }
