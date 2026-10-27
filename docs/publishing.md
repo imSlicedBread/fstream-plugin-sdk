@@ -33,8 +33,7 @@ Get-FileHash plugin-test-pattern-release.apk -Algorithm SHA256
 Keep the signing-certificate SHA-256 fingerprint in your release notes. Users
 compare it with fStream's trust dialog. Increment `versionCode` inside the plugin
 JSON when changing the APK, and keep the same signing certificate for updates.
-Changing only Android's versionCode is insufficient. Loaded-plugin updates
-require restarting fStream.
+Changing only Android's versionCode is insufficient. Updates apply automatically when the affected plugin is idle; hung plugins require recovery.
 
 ## GitHub releases
 

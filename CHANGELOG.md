@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.0 — 2026-10-27
+
+- General API 4 entry with optional actions, automation, configuration, and video-input capabilities.
+- Credential-free immutable studio state and asynchronous scene-selection commands.
+- Scene Tools example: manual scene action, opt-in live-transition automation, configurable target.
+- Bounded serial callbacks, timeout quarantine, pinned actions, and idle hot reload in the host.
+- Existing API 1–3 packages remain compatible. New artifact: `plugin-sdk-0.4.0.aar`.
+- Release downloads include experimental GoPro Connect and DJI Osmo Action 5 Pro adapters.
+  Both require Android 13+; physical-camera pairing and live video remain unverified.
+- The legacy 0.3.0 artifact stays available. Use only one SDK artifact in a plugin.
+
 ## 0.3.0 — 2026-10-27
 
 First standalone public SDK release under MIT.

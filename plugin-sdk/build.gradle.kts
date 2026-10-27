@@ -1,6 +1,6 @@
 plugins { id("com.android.library"); id("maven-publish") }
 group = "com.fstream"
-version = "0.3.0"
+version = "0.4.0"
 android {
     namespace = "com.fstream.plugin.sdk"
     compileSdk = 36
@@ -14,6 +14,6 @@ android {
 afterEvaluate {
     publishing.publications.create<MavenPublication>("release") {
         from(components["release"])
-        artifactId = "video-input-sdk"
+        artifactId = "plugin-sdk"
     }
 }

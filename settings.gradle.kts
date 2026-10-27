@@ -5,3 +5,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "fstream-plugin-sdk"
 include(":plugin-sdk", ":plugin-test-pattern")
+include(":plugin-scene-tools")

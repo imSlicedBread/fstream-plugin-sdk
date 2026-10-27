@@ -132,8 +132,7 @@ Publisher trust is explicit at import, before any constructor or plugin code run
 
 Packages are copied to private storage, marked read-only before writing, verified
 before import confirmation, verified again when committed, and verified on load.
-Updates cannot replace an active producer. Loaded plugins require a restart after
-update/enable/disable; removals preserve immutable loaded files until process exit.
+Updates cannot replace an active producer. Loaded plugins reload when idle after updates; removals preserve immutable loaded files until process exit.
 Missing, disabled, invalid, or incompatible plugins leave scene references intact.
 
 An interrupted active plugin session leaves a persistent marker. On the next

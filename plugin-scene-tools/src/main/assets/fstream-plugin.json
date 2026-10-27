@@ -1,0 +1,8 @@
+{
+  "formatVersion": 1, "apiVersion": 4,
+  "id": "com.fstream.plugins.scenetools", "name": "Scene Tools",
+  "versionCode": 1, "versionName": "0.1.0", "minAndroidApi": 30,
+  "entryClass": "com.fstream.plugins.scenetools.SceneToolsPlugin",
+  "capabilities": ["actions", "automation", "configuration"],
+  "actions": [{"id": "switch-scene", "name": "Switch to target scene"}]
+}
